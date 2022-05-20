@@ -1,0 +1,28 @@
+@import '../base/variables';
+@import '../base/mapas';
+@import '../base/mixin';
+
+
+.contenedor-campos .campo{
+    padding: 15px 10px;
+}
+
+.boton{
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    @include boton(blue,pointer);
+    color: white;
+    border-radius: 3px;
+    transform: all 300ms ease;
+}
+
+.final{
+    background-color: map-get( $footerfinal,bg-color );
+    color: map-get( $footerfinal,colorletra );
+    text-align: map-get($footerfinal, text-align );
+    padding-top: map-get($footerfinal, padtop );
+    padding-bottom: map-get($footerfinal, padbot );
+}

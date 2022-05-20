@@ -10,37 +10,60 @@ html {
 }
 
 h2 {
-  color: rgb(12, 116, 110);
+  color: lightseagreen;
 }
 
-.container-nosotros{
-  background-image: url(Imagenes/1533921980121.jpg);
-  background-color: rgba(0, 0, 255, 0.459);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
+/* variables */
+/* $bg-color-general: black; */
+.container-nosotros {
   color: white;
   text-align: center;
 }
 
-.nosotros{
-  padding: 8rem; 
+.container-nosotros {
+  color: white;
+  text-align: center;
+}
+
+.container-nosotros {
+  background-image: url(../imagenes/1533921980121.jpg);
+  background-color: rgba(0, 0, 255, 0.459);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.nosotros {
+  padding: 8rem;
 }
 
 /* variables */
 /* $bg-color-general: black; */
 /* variables */
 /* $bg-color-general: black; */
+.contenedor-campos .campo {
+  padding: 15px 10px;
+}
+
+.boton {
+  margin-bottom: 5px;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+  border-radius: 3px;
+  transform: all 300ms ease;
+}
+
 .final {
   background-color: rgb(17, 116, 155);
   color: white;
   text-align: center;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.borde {
-  border: 2px solid black;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,4 @@
+@mixin boton($blue,$pointer){
+    background-color: $blue;
+    cursor: $pointer;
+}

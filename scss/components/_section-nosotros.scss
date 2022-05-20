@@ -1,0 +1,14 @@
+@import '../base/extends';
+
+.container-nosotros{
+    background-image: url(../imagenes/1533921980121.jpg);
+    background-color: rgba(0, 0, 255, 0.459);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    @extend %color-text;
+}
+  
+.nosotros{
+    padding: 8rem; 
+}
