@@ -1,5 +1,4 @@
 /* anidamiento */
-/* @import '../scss/components/header'; */
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +25,7 @@ h2 {
 }
 
 .container-nosotros {
-  background-image: url(../imagenes/1533921980121.jpg);
+  background-image: url(../imagenes/1533921980121.webp);
   background-color: rgba(0, 0, 255, 0.459);
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,8 +40,37 @@ h2 {
 /* $bg-color-general: black; */
 /* variables */
 /* $bg-color-general: black; */
+.back-color {
+  background-color: #f2f8fa;
+}
+
+.margin {
+  margin-top: 40px;
+}
+
+.mail,
+.wp {
+  display: flex;
+}
+
+.colorlink {
+  color: #25D366;
+}
+
 .contenedor-campos .campo {
   padding: 15px 10px;
+  display: block;
+}
+
+.contacto {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #4a4a4a;
+  padding: 2px 5px;
+  width: 100%;
+  resize: vertical;
+  margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 .boton {
@@ -51,7 +79,7 @@ h2 {
   font-size: 16px;
   border: none;
   outline: 0px;
-  background-color: blue;
+  background-color: #0099BD;
   cursor: pointer;
   color: white;
   border-radius: 3px;
@@ -64,6 +92,13 @@ h2 {
   text-align: center;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+/* @import '../base/variables; */
+/* variables */
+/* $bg-color-general: black; */
+.background-color {
+  background-color: rgb(17, 116, 155);
 }
 
 /*# sourceMappingURL=style.css.map */

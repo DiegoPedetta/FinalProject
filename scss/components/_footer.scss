@@ -2,9 +2,37 @@
 @import '../base/mapas';
 @import '../base/mixin';
 
+.back-color{
+    background-color: #f2f8fa;
+}
+
+.margin{
+    margin-top: 40px;
+}
+
+.mail,
+.wp {
+    display: flex;
+}
+
+.colorlink{
+    color: #25D366;
+}
 
 .contenedor-campos .campo{
     padding: 15px 10px;
+    display: block;
+}
+
+.contacto{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #4a4a4a;
+    padding: 2px 5px;
+    width: 100%;
+    resize: vertical;
+    margin-bottom: 20px;
+    white-space: nowrap;
 }
 
 .boton{
@@ -13,7 +41,7 @@
     font-size: 16px;
     border: none;
     outline: 0px;
-    @include boton(blue,pointer);
+    @include boton( #0099BD,pointer);
     color: white;
     border-radius: 3px;
     transform: all 300ms ease;
